@@ -13,17 +13,17 @@ enableToc: true
 
 # Comment
 comment:
-    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    # disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    # livere:  # https://www.livere.com
+    # disqus: 
+    # uyan:  # 有言id,登录有言官网申请
 
 # Social
 social:
     weibo: 6992107863
     github: Linsjc
-    # zhihu: panpanleopard
-    # juejin: xxx
-    # jianshu: 2ada30d8d0f7
+    # zhihu: 
+    # juejin: 
+    # jianshu: 
     # twitter:
     mail: 2926218539@qq.com
 
