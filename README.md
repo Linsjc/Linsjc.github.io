@@ -1,17 +1,3 @@
-### 赞助
-
-<details>
-
-<summary>微信二维码</summary>
-<img width="300" src="https://linsjc.github.io/images/payimg/weipayimg.jpg" alt="wechat">
-</details>
-
-<details>
-
-<summary>支付宝二维码</summary>
-<img width="300" src="https://linsjc.github.io/images/payimg/alipayim.jpg" alt="alipay">
-</details>
-
 #### 头像效果
 
 ![](https://linsjc.github.io/images/readme/icon.gif)
