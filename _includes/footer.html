@@ -85,29 +85,13 @@
 
         </div>
 
-        <div class="copyright" >
-          {% assign current = site.time | date: '%Y' %}
-          {% assign since = site.since | downcase %}
-          &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
-          <span itemprop="copyrightYear">{{ current }}</span>
-          <span class="with-love">
-            <i class="fa fa-{{ site.authoricon }}"></i>
-          </span>
-          <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-        </div>
-        
-        {% if site.copyright %}
-        <div class="powered-by">
-          {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
-        </div>
-        
-        <div class="theme-info">
-          {{ __.footer.theme }} -
-          <a class="theme-link" href="https://leopardpan.cn/">
-            NexT.{{ site.scheme }}
-          </a>
-        </div>
-        {% endif %}
+        <div class = "footer_div">  
+          <p class="copyright text-muted">
+           Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} Theme by <a href="https://leopardpan.cn/">leopardpan</a>
+           </p>
+         <div align="right">
+         <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
           <!-- 访问统计 -->
           <span id="busuanzi_container_site_pv">
             本站总访问量
